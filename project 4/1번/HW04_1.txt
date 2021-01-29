@@ -1,0 +1,9 @@
+1 : consecutive
+2 : extraordinary
+3 : bilingual
+4 : arrehensive
+5 : commensurate
+6 : proficiency
+7 : Hit
+8 : economy
+9 : commute 

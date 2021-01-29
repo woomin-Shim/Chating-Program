@@ -1,0 +1,3 @@
+
+ID중복을 제외한 모든 기능은 구현하였습니다.
+ID중복을 구현할 때 hash map을  HashMap<String, ServerThread_W> hash_m = new HashMap<String, ServerThread_W>(); 이와 같이 생성하여 ID를 입력받을때 마다 hashmap에 저장되게 하고 이 해쉬맵을 List <HashMap<String,ServerThread_W>> list = new ArrayList<HashMap<String, ServerThread_W>>(); 이와 같은 배열 리스트로 관리하여 for문을 통해 만약 ID가 리스트 안, hashmap에 이미 있다면 서버에서 "ID 중복"이라는 메시지를 보내면 클라이언트가 이 메시지를 받게 되면 로그인을 할 수 없게 구현하였습니다. 또한 리스트 안 hashmap에 아이디가 저장되어있지않다면 "로그인 성공"이라는 메시지를 보내고 이 메시지를 받을 클라이언트는 로그인을 할 수 있게 구현할려고 노력하였습니다. 
